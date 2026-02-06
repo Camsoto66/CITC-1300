@@ -46,7 +46,14 @@ hr {
     margin: 20px 0;
 }
 
-footer {
-    text-align: center;
-    background-color: #102c44;
+header h1 {
+    color: #ffd700;
+}
+
+main h2 {
+    color: #00bfff;
+}
+
+main h3 {
+    color: #32cd32;
 }
