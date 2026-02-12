@@ -26,13 +26,21 @@ header p {
   color: rgb(61, 0, 110);
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+nav li {
+  display: inline;
+}
 nav {
   background-color: #13294b;
   padding: 10px;
   text-align: center;
 }
 
-nav a {
+nav li {
   color: rgb(3, 156, 144);
   margin: 0 10px;
   text-decoration: none;
@@ -45,6 +53,7 @@ nav a:hover {
 
 main {
   padding: 20px;
+  display: flex;
 }
 
 section {
@@ -52,11 +61,27 @@ section {
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
+  width: 65%;
 }
 
 section h2 {
   margin-top: 0;
 }
+
+aside{
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 65%;
+}
+
+aside img {
+  display: block;
+  margin: 20px;
+  margin: 20px auto;
+  width: 35%;
+}
+
 
 iframe {
   width: 100%;
@@ -120,4 +145,22 @@ footer {
   padding: 15px;
   background-color: #09162a;
   color: white;
+}
+
+#single_col {
+  display: block;
+  width: 65%;
+  margin: 20px auto;
+}
+#single_col img {
+  display: block;
+  width: 65%;
+  margin: 20px auto;
+}
+.center {
+  text-align: center;
+}
+
+.location {
+  display: flex;
 }
